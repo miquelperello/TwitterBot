@@ -4,7 +4,7 @@ Twitter bot able to give the weather giving a location or convert an image to b/
 
 
 ### Color image to b/n:
-![Image](https://imgur.com/a/U8jzsgV)
+![Image](/files/bn.png)
 
 ### Weather:
-![Image twitter 1](https://imgur.com/a/b5XAEmK)
+![Image twitter 1]("/files/weather.png")
