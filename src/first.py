@@ -11,8 +11,6 @@ from googletrans import Translator
 import requests, json
 
 
-
-
 consumer_key=""
 consumer_secret=""
 
@@ -20,8 +18,7 @@ consumer_secret=""
 access_token=""
 access_token_secret=""
 
-
-##TEMPS
+#TEMPS
 
 api_weather = ""
 
@@ -81,11 +78,7 @@ def respondtemps(tweetid, author, text):
 	          "hPa. Humitat =  " +
 	                    str(current_humidiy) +
 	          "%. " +
-	                    translator.translate(str(weather_description), dest='ca').text, in_reply_to_status_id = tweetid) #ca -> catalan.
-	    
-	 
-
-
+	                    translator.translate(str(weather_description), dest='ca').text, in_reply_to_status_id = tweetid) #ca -> catalan
 	  
 	else: 
 	    api.update_status("@"+ author +" Sorry! City Not Found", in_reply_to_status_id = tweetid) 
